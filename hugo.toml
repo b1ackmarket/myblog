@@ -2,4 +2,57 @@ baseURL = 'https://blog.qinsher.top/'
 languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
 title = "Qinsher's Blog"
-theme = 'PaperMod' 
+theme = 'PaperMod'
+
+[params]
+    env = 'production'
+    title = "Qinsher's Blog"
+    description = "Qinsher's Personal Blog"
+    author = "Qinsher Yao"
+    
+    # Profile Mode
+    [params.profileMode]
+        enabled = true
+        title = "Qinsher Yao"
+        subtitle = "知行合一，日拱一卒"
+        displayFullContent = false
+        imageUrl = "images/avatar.png"
+        imageTitle = "Avatar"
+        imageWidth = 120
+        imageHeight = 120
+        [params.profileMode.buttons]
+            [[params.profileMode.buttons]]
+                name = "文章"
+                url = "posts"
+            [[params.profileMode.buttons]]
+                name = "标签"
+                url = "tags"
+
+    # Social Icons
+    [[params.socialIcons]]
+        name = "email"
+        url = "mailto:yuanyao0055@gmail.com"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/b1ackmarket"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[menu]
+    [[menu.main]]
+        identifier = "categories"
+        name = "分类"
+        url = "/categories/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "标签"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "archives"
+        name = "归档"
+        url = "/archives/"
+        weight = 30
