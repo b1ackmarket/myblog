@@ -3,6 +3,7 @@ languageCode = 'zh-cn'
 defaultContentLanguage = 'zh'
 title = "Qinsher's Blog"
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [params]
     env = 'production'
@@ -14,7 +15,7 @@ theme = 'PaperMod'
     [params.profileMode]
         enabled = true
         title = "Qinsher Yao"
-        subtitle = "知行合一，日拱一卒"
+        subtitle = "不要后悔"
         displayFullContent = false
         imageUrl = "images/avatar.png"
         imageTitle = "Avatar"
@@ -31,7 +32,7 @@ theme = 'PaperMod'
     # Social Icons
     [[params.socialIcons]]
         name = "email"
-        url = "mailto:yuanyao0055@gmail.com"
+        url = "mailto:qinsher.yao@gmail.com"
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/b1ackmarket"
