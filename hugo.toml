@@ -1,0 +1,5 @@
+baseURL = 'https://blog.qinsher.top/'
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh'
+title = "Qinsher's Blog"
+theme = 'PaperMod' 
