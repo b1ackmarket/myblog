@@ -22,11 +22,11 @@ enableRobotsTXT = true
         imageWidth = 120
         imageHeight = 120
         [[params.profileMode.buttons]]
-                name = "文章"
-                url = "posts"
-            [[params.profileMode.buttons]]
-                name = "标签"
-                url = "tags"
+            name = "文章"
+            url = "posts"
+        [[params.profileMode.buttons]]
+            name = "标签"
+            url = "tags"
 
     # Social Icons
     [[params.socialIcons]]
@@ -42,17 +42,17 @@ enableRobotsTXT = true
 
 [menu]
     [[menu.main]]
+        identifier = "archives"
+        name = "归档"
+        url = "/archives/"
+        weight = 10
+    [[menu.main]]
         identifier = "categories"
         name = "分类"
         url = "/categories/"
-        weight = 10
+        weight = 20
     [[menu.main]]
         identifier = "tags"
         name = "标签"
         url = "/tags/"
-        weight = 20
-    [[menu.main]]
-        identifier = "archives"
-        name = "归档"
-        url = "/archives/"
         weight = 30
