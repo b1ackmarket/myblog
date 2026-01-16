@@ -42,6 +42,9 @@ enableRobotsTXT = true
     [[params.socialIcons]]
         name = "github"
         url = "https://github.com/b1ackmarket"
+    [[params.socialIcons]]
+        name = "douban"
+        url = "https://www.douban.com/people/qinsher"
 
 [taxonomies]
     category = "categories"
