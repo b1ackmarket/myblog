@@ -5,11 +5,18 @@ title = "Qinsher's Blog"
 theme = 'PaperMod'
 enableRobotsTXT = true
 
+[frontmatter]
+    lastmod = [":git", "lastmod", ":fileModTime", ":date"]
+
+
 [params]
     env = 'production'
     title = "Qinsher's Blog"
     description = "Qinsher's Personal Blog"
     author = "Qinsher Yao"
+    walineServer = "https://blogcomment-wine.vercel.app"
+    comments = true
+
     
     # Profile Mode
     [params.profileMode]
